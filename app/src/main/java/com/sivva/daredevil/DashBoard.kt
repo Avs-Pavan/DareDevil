@@ -56,7 +56,7 @@ class DashBoard : BaseActivity() {
         if (!isShowing)
             showSubjectDialog()
     }
-
+//pushing to tamucc
 
     private fun update(topic: String, message: String) {
         recyclerView.scrollToPosition(messages.size - 1)
@@ -154,7 +154,6 @@ class DashBoard : BaseActivity() {
             WindowManager.LayoutParams.MATCH_PARENT,
             WindowManager.LayoutParams.WRAP_CONTENT
         )
-//        if (this.window.decorView.rootView.isShown)
         dialog.show()
     }
 
